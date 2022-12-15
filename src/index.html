@@ -1,0 +1,105 @@
+<!-- 
+
+  Hello there!  /\_/\   This responsive, interactive
+               ( o.o )    portfolio website was created 
+                >^|^<       by Fox Jones on December 15, 2022 @ 10:03 PM
+
+  Thank you for taking the time to review my code.
+  Since you asked, Yes! This page was handcoded by yours truly.
+  What's that, you want to know more? I thought you'd never ask!
+  We don't get too many visitors round these parts, but when we do...
+  Well, they tend to be the curious type! Is that you?
+  Well then let me tell you a tale...
+
+  The entire portfolio exists as a single 3.61 KB HTMl file,
+  and uses TailwindCSS for style and CSS micro-animations/
+  Did I write all this code from scratch? Heck no. I wrote
+  about 75% of it, and then borrowed and modified public code
+  snippits for adding various functionality, like the darkmode
+  switch.
+
+  I began in Codepen.io for some rapid prototyping,
+  then created a Git repo and connected VSCode.
+  Finally, I grabbed some sweet HD images from Unsplash
+  (credit to the photographers in the filename.jpg)
+  I hope that answers all your questions! The rest of the code
+  is throughly commented for your convenience and mine. 
+  
+  Please make yourself at home, and take a look around.
+
+  ~ Philip Fox Jones, a pretty good GUI
+
+  last commit on December 15, 2022 @ 8:57 AM
+
+-->
+
+<!-- "I do declare!"" -->
+<!doctype html>
+<html lang="en">
+<head><meta charset="us-ascii">
+
+<!-- Knock knock, who's there? Meta. Meta who? Met a nice dog in the park today. -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta description="I am a professional web & UI designer with expertise in creating beautiful, user-friendly websites for large corporations. From optimized landing pages to complex e-commerce platforms, I can help your company achieve its goals online. Check out my portfolio and hire me today." >
+
+<!-- Tailwind CSS, custom styles & custom scripting -->
+<link rel="stylesheet" href="css/tailwind.css">
+<style type="text/css">a.inline-block {background: linear-gradient(to bottom right, #3498db, #8e44ad);}</style>
+<link rel="javascript" href="script/script.js">
+
+<title>Web Designer Portfolio</title>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- AIDA-compliant header with attention-grabbing title -->
+<header class="bg-gray-900 text-white py-8">
+<h1 class="text-4xl font-bold text-center">Philip Fox Jones<span class="font-normal italic">, User Interface Design </span></h1>
+</header>
+
+<!-- The hero image component with parralax background *groan* -->
+
+<section class="bg-gray-800 py-32 bg-cover bg-fixed" style="background-image: url('images/hero-background.jpg');">
+<div class="container mx-auto text-center text-white">
+<h1 class="text-6xl font-bold">Go ahead, inspect my code.</h1>
+
+<p class="text-2xl">It is clean, commented, and compliant.</p>
+</div>
+</section>
+<!-- Interactive CSS animations for portfolio items -->
+
+<ul class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 my-8">
+	<li class="col-span-1 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-500 ease-in-out transform">
+	<h2 class="text-2xl font-bold text-gray-800"><a class="block p-4 " href="#">What makes me different?</a></h2>
+
+	<p class="text-gray-600"><a class="block p-4 " href="#">I have a deep understanding of design principles and a mastery of web development tools and technologies.</a></p>
+	</li>
+	<li class="col-span-1 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-500 ease-in-out transform">
+	<h2 class="text-2xl font-bold text-gray-800"><a class="block p-4" href="#">I am experienced.</a></h2>
+
+	<p class="text-gray-600"><a class="block p-4" href="#">I have worked with a variety of companies, from startups to bluechips, and have an impressive track record of delivering successful projects. </a></p>
+	</li>
+	<li class="col-span-1 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1">
+	<h2 class="text-2xl font-bold text-gray-800"><a class="block p-4" href="#">Project 3</a></h2>
+
+	<p class="text-gray-600"><a class="block p-4" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>
+	</li>
+  <li class="col-span-1 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1">
+    <h2 class="text-2xl font-bold text-gray-800"><a class="block p-4" href="#">I&#39;ve got skills.</a></h2>
+
+    <p class="text-gray-600 block p-4"><a class="" href="#">Adobe Creative Suite 2023</a><br />
+      <a href="#">Visual Studio Code</a><br />
+      <a href="#">GitHub & CoPilot</a><br />
+      <a href="#">TailwindCSS, NextJS</a><br />
+      <a href="#">AI prompt engineering</a>
+  </li>
+</ul>
+<!-- AIDA-compliant call to action section -->
+
+<section class="container mx-auto text-center py-8 bg-gray-200 rounded-t-xl">
+<h2 class="text-3xl font-bold text-gray-800 mb-4">I&#39;m ready to join your team.</h2>
+
+<p class="text-gray-600 mb-8">Let&#39;s do great work together.</p>
+<a class="inline-block py-3 px-8 rounded-lg bg-gray-800 text-white font-bold transition duration-500 ease-in-out transform hover:-translate-y-1 shadow-lg hover:shadow-2xl" href="#">Hire me.</a></section>
+</body>
+</html>
